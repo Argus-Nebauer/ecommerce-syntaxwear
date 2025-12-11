@@ -4,7 +4,7 @@
     top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 600px);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
@@ -52,6 +52,8 @@
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    /* flex: 1;
+    margin-left: 10rem; */
 }
 
 .menu-toggle{
@@ -103,18 +105,9 @@
         text-align: center;
     }
 
-    .nav-center li, .nav-right li{
-        width: 100%;
-        text-align: center;
-    }
-
     .nav-center ul, .nav-right ul{
         flex-direction: column;
         gap: 1.5rem;
-        width: 100%;
-    }
-
-    .nav-center ul li, .nav-right ul li{
         width: 100%;
     }
 
